@@ -1,0 +1,6 @@
+RUBY RACEr - LIBV8 issues on 1.9.3
+
+brew install v8@3.15
+bundle config --local build.libv8 --with-system-v8
+bundle config --local build.therubyracer --with-v8-dir=/usr/local/opt/v8@3.15
+bundle install
