@@ -29,3 +29,18 @@ SELECT2 CDN
 	    }
 	 });
 </script>
+
+JSON response structure should be 
+
+{
+  "results": [
+    {
+      "id": 1,
+      "text": "Option 1"
+    },
+    {
+      "id": 2,
+      "text": "Option 2"
+    }
+  ]
+}
